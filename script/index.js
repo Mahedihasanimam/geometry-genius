@@ -19,3 +19,25 @@ const aria=parseFloat(b.value*h.value);
 const addAria=document.getElementById('addAria2');
 addAria.innerText=aria
 }
+
+function clickMe3(){
+    const b=document.getElementById('Rhombus-d1');
+    const h=document.getElementById('Rhombus-d2');
+    const aria=parseFloat(0.5*b.value*h.value);
+    const addAria=document.getElementById('addAria3');
+    addAria.innerText=aria
+    }
+function clickMe4(){
+    const b=document.getElementById('Pentagon1-p');
+    const h=document.getElementById('Pentagon1-h');
+    const aria=parseFloat(0.5*b.value*h.value);
+    const addAria=document.getElementById('addAria4');
+    addAria.innerText=aria
+    }
+function clickMe5(){
+    const b=document.getElementById('Ellipse-a');
+    const h=document.getElementById('Ellipse-b');
+    const aria=parseFloat(3.142*b.value*h.value);
+    const addAria=document.getElementById('addAria5');
+    addAria.innerText=aria
+    }
