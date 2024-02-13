@@ -17,15 +17,24 @@
     />
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body class="p-8">
-    <header></header>
+  <body class="p-8 ">
+    <header>
+      <div class="flex justify-between bg-[#1090D81A] p-5 mb-14">
+        <div><h1 class="font-bold text-3xl">Interactive </h1>
+          <p>Geometry Genius</p></div>
+          <div>
+            <button class="btn btn-primary">blog</button>
+          </div>
+      </div>
+      
+    </header>
     <main>
       <!-- main container  -->
       <div class="flex flex-col md:flex-row gap-6" >
         <div class="lg:w-5/6 w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           <!-- first card  -->
-          <div class="card bg-base-100 shadow-xl">
-            <figure>
+          <div class="card bg-base-100 shadow-xl  border-2 border-gray-100">
+            <figure class="p-5">
               <img
                 src="images/triangle.png"
                 alt="Shoes"
@@ -50,8 +59,8 @@
             </div>
           </div>
           <!-- 2nd card  -->
-          <div class="card bg-base-100 shadow-xl">
-            <figure>
+          <div class="card bg-base-100 shadow-xl  border-2 border-gray-100">
+            <figure class="p-5">
               <img
                 src="images/rectangle.png"
                 alt="rectangle"
@@ -76,8 +85,8 @@
             </div>
           </div>
           <!-- 3rd card  -->
-          <div class="card bg-base-100 shadow-xl">
-            <figure>
+          <div class="card bg-base-100 shadow-xl  border-2 border-gray-100">
+            <figure class="p-5">
               <img
                 src="images/parallelogram.png"
                 alt="rectangle"
@@ -102,7 +111,7 @@
             </div>
           </div>
           <!-- fourth card Rhombus -->
-          <div class="card bg-base-100 shadow-xl">
+          <div class="card bg-base-100 shadow-xl  border-2 border-gray-100">
             <figure class="py-5">
               <img
                 src="images/rhombus.png"
@@ -128,7 +137,7 @@
             </div>
           </div>
           <!-- fifth card Pentagon -->
-          <div class="card bg-base-100 shadow-xl">
+          <div class="card bg-base-100 shadow-xl  border-2 border-gray-100">
             <figure class="py-5">
               <img
                 src="images/pentagon.png"
@@ -154,7 +163,7 @@
             </div>
           </div>
           <!-- six card Ellipse -->
-          <div class="card bg-base-100 shadow-xl">
+          <div class="card bg-base-100 shadow-xl border-2 border-gray-100">
             <figure class="py-5">
               <img
                 src="images/ellipse.png"
@@ -184,7 +193,7 @@
 
         <!-- aria calculation  -->
         <div class="lg:w-1/4 w-full shadow-lg text-center pt-3">
-          <h1 class="text-3xl underline">Aria calculation</h1>
+          <h1 class="text-3xl underline font-bold">Aria calculation</h1>
         </div>
       </div>
     </main>
